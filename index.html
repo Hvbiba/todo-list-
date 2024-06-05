@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sheet.css">
+    <title>To Do List App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headline">
+            <h1>ToDo List App</h1> <h2 class="date"></h2>
+        </div>
+        <div class="tasks">
+            <input type="text" placeholder="Task" id="taskInput">
+            <input type="date" placeholder="DD/MM/YY" id="date">
+            <div>
+                <button id="add">Add</button>
+                <button id="delAll">Delete All</button>
+            </div>
+        </div>
+        <div id="tasks"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
